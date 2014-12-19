@@ -21,7 +21,7 @@
 #ifndef __GLESDEBUGDRAW_H
 #define __GLESDEBUGDRAW_H
 
-#include "Box2D/Box2D.h"
+#include <Box2D/Box2D.h>
 #include "cocos2d.h"
 
 struct b2AABB;
@@ -69,4 +69,4 @@ protected:
 };
 
 
-#endif //__GLESDEBUGDRAW_H
+#endif // __GLESDEBUGDRAW_H

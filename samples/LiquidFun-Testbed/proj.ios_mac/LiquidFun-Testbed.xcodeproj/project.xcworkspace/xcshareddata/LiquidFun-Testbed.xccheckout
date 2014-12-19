@@ -10,37 +10,45 @@
 	<string>LiquidFun-Testbed</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>67B433A6-30D1-4FC7-A6BC-1342ACD5461E</key>
+		<key>852ED3691A47A99B0D19C820A500AE9772B2A44E</key>
 		<string>https://github.com/cocos2d/cocos2d-x.git</string>
-		<key>EC2B3E94-DC54-49C4-9ACD-0BF71EB32912</key>
-		<string>ssh://github.com/cocos2d/cocos2d-x-samples.git</string>
-		<key>FCCAD2A1-262A-4D6F-9C67-401CCA162576</key>
+		<key>932BE68C6CC498A3F5CF7382A246B41D417B88D0</key>
 		<string>https://github.com/google/liquidfun.git</string>
+		<key>DEDBBE27F2C2C64492DFADE16D9569B7C614844A</key>
+		<string>https://github.com/cocos2d/cocos2d-x-samples.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>samples/LiquidFun-Testbed/proj.ios_mac/LiquidFun-Testbed.xcodeproj/project.xcworkspace</string>
+	<string>samples/LiquidFun-Testbed/proj.ios_mac/LiquidFun-Testbed.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>67B433A6-30D1-4FC7-A6BC-1342ACD5461E</key>
-		<string>../../../../../libs/cocos2d-x</string>
-		<key>EC2B3E94-DC54-49C4-9ACD-0BF71EB32912</key>
-		<string>../../../../..</string>
-		<key>FCCAD2A1-262A-4D6F-9C67-401CCA162576</key>
-		<string>../../../../../libs/liquidfun</string>
+		<key>852ED3691A47A99B0D19C820A500AE9772B2A44E</key>
+		<string>../../../../..libs/cocos2d-x</string>
+		<key>932BE68C6CC498A3F5CF7382A246B41D417B88D0</key>
+		<string>../../../../..libs/liquidfun/liquidfun</string>
+		<key>DEDBBE27F2C2C64492DFADE16D9569B7C614844A</key>
+		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/cocos2d/cocos2d-x-samples.git</string>
+	<string>https://github.com/cocos2d/cocos2d-x-samples.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>EC2B3E94-DC54-49C4-9ACD-0BF71EB32912</string>
+	<string>DEDBBE27F2C2C64492DFADE16D9569B7C614844A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>67B433A6-30D1-4FC7-A6BC-1342ACD5461E</string>
+			<string>DEDBBE27F2C2C64492DFADE16D9569B7C614844A</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>852ED3691A47A99B0D19C820A500AE9772B2A44E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>cocos2d-x</string>
 		</dict>
@@ -48,7 +56,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>EC2B3E94-DC54-49C4-9ACD-0BF71EB32912</string>
+			<string>DEDBBE27F2C2C64492DFADE16D9569B7C614844A</string>
 			<key>IDESourceControlWCCName</key>
 			<string>cocos2d-x-samples</string>
 		</dict>
@@ -56,7 +64,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FCCAD2A1-262A-4D6F-9C67-401CCA162576</string>
+			<string>932BE68C6CC498A3F5CF7382A246B41D417B88D0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>liquidfun</string>
 		</dict>

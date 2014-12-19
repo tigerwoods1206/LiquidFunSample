@@ -148,14 +148,25 @@
 		5087E78617EB970100C73F5D /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77B17EB970100C73F5D /* Icon-76.png */; };
 		5087E78917EB974C00C73F5D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087E78817EB974C00C73F5D /* AppKit.framework */; };
 		5087E78B17EB975400C73F5D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087E78A17EB975400C73F5D /* OpenGL.framework */; };
-		50D7204F18F8A62C000335B8 /* libcocos2dx Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7203018F8A5E8000335B8 /* libcocos2dx Mac.a */; };
-		50D7205218F8A637000335B8 /* libcocos2dx iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7203A18F8A5E8000335B8 /* libcocos2dx iOS.a */; };
+		50D7204F18F8A62C000335B8 /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7203018F8A5E8000335B8 /* libcocos2d Mac.a */; };
+		50D7205218F8A637000335B8 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D7203A18F8A5E8000335B8 /* libcocos2d iOS.a */; };
 		50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629217ECD46A001EB2F8 /* Icon-40.png */; };
 		50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629317ECD46A001EB2F8 /* Icon-58.png */; };
 		50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629417ECD46A001EB2F8 /* Icon-80.png */; };
 		50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629517ECD46A001EB2F8 /* Icon-100.png */; };
 		50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A017ECD613001EB2F8 /* Icon-29.png */; };
 		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
+		768BB5C31A43EE9100BE1DDC /* GameScene_Box2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 768BB5BF1A43EE9100BE1DDC /* GameScene_Box2D.cpp */; };
+		768BB5CA1A43FB3C00BE1DDC /* GLESDebugDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 768BB5C81A43FB3C00BE1DDC /* GLESDebugDraw.cpp */; };
+		768BB5CD1A43FBEE00BE1DDC /* BallSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 768BB5CB1A43FBEE00BE1DDC /* BallSprite.cpp */; };
+		768BB5D61A44013F00BE1DDC /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 768BB5CE1A44013F00BE1DDC /* ball.png */; };
+		768BB5D71A44013F00BE1DDC /* blue_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 768BB5CF1A44013F00BE1DDC /* blue_ball.png */; };
+		768BB5D81A44013F00BE1DDC /* hl_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 768BB5D01A44013F00BE1DDC /* hl_ball.png */; };
+		768BB5D91A44013F00BE1DDC /* hl_blue_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 768BB5D11A44013F00BE1DDC /* hl_blue_ball.png */; };
+		768BB5DA1A44013F00BE1DDC /* hl_pur_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 768BB5D21A44013F00BE1DDC /* hl_pur_ball.png */; };
+		768BB5DB1A44013F00BE1DDC /* hl_yellow_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 768BB5D31A44013F00BE1DDC /* hl_yellow_ball.png */; };
+		768BB5DC1A44013F00BE1DDC /* pur_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 768BB5D41A44013F00BE1DDC /* pur_ball.png */; };
+		768BB5DD1A44013F00BE1DDC /* yellow_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 768BB5D51A44013F00BE1DDC /* yellow_ball.png */; };
 		A00E3D5719008BCB00F01AFF /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A00E3D1919008BCB00F01AFF /* AppDelegate.cpp */; };
 		A00E3D5819008BCB00F01AFF /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A00E3D1919008BCB00F01AFF /* AppDelegate.cpp */; };
 		A00E3D5919008BCB00F01AFF /* Box2dView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A00E3D1B19008BCB00F01AFF /* Box2dView.cpp */; };
@@ -172,8 +183,6 @@
 		A00E3D701900969100F01AFF /* Images in Resources */ = {isa = PBXBuildFile; fileRef = A00E3D6E1900969100F01AFF /* Images */; };
 		A00E3DBE1900987B00F01AFF /* ParticleParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A00E3DBC1900987B00F01AFF /* ParticleParameter.cpp */; };
 		A00E3DBF1900987B00F01AFF /* ParticleParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A00E3DBC1900987B00F01AFF /* ParticleParameter.cpp */; };
-		A0ECBFAE1907313000489C7B /* GLESDebugDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0ECBFAC1907313000489C7B /* GLESDebugDraw.cpp */; };
-		A0ECBFAF1907313000489C7B /* GLESDebugDraw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0ECBFAC1907313000489C7B /* GLESDebugDraw.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -366,6 +375,20 @@
 		50EF629517ECD46A001EB2F8 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
 		50EF62A017ECD613001EB2F8 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
 		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		768BB5BF1A43EE9100BE1DDC /* GameScene_Box2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene_Box2D.cpp; sourceTree = "<group>"; };
+		768BB5C01A43EE9100BE1DDC /* GameScene_Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene_Box2D.h; sourceTree = "<group>"; };
+		768BB5C81A43FB3C00BE1DDC /* GLESDebugDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLESDebugDraw.cpp; sourceTree = "<group>"; };
+		768BB5C91A43FB3C00BE1DDC /* GLESDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESDebugDraw.h; sourceTree = "<group>"; };
+		768BB5CB1A43FBEE00BE1DDC /* BallSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BallSprite.cpp; sourceTree = "<group>"; };
+		768BB5CC1A43FBEE00BE1DDC /* BallSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallSprite.h; sourceTree = "<group>"; };
+		768BB5CE1A44013F00BE1DDC /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		768BB5CF1A44013F00BE1DDC /* blue_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_ball.png; sourceTree = "<group>"; };
+		768BB5D01A44013F00BE1DDC /* hl_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hl_ball.png; sourceTree = "<group>"; };
+		768BB5D11A44013F00BE1DDC /* hl_blue_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hl_blue_ball.png; sourceTree = "<group>"; };
+		768BB5D21A44013F00BE1DDC /* hl_pur_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hl_pur_ball.png; sourceTree = "<group>"; };
+		768BB5D31A44013F00BE1DDC /* hl_yellow_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hl_yellow_ball.png; sourceTree = "<group>"; };
+		768BB5D41A44013F00BE1DDC /* pur_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pur_ball.png; sourceTree = "<group>"; };
+		768BB5D51A44013F00BE1DDC /* yellow_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow_ball.png; sourceTree = "<group>"; };
 		A00E3D1919008BCB00F01AFF /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		A00E3D1A19008BCB00F01AFF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Classes/AppDelegate.h; sourceTree = "<group>"; };
 		A00E3D1B19008BCB00F01AFF /* Box2dView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Box2dView.cpp; path = ../Classes/Box2dView.cpp; sourceTree = "<group>"; };
@@ -451,8 +474,6 @@
 		A00E3DBB1900987B00F01AFF /* ParticleEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleEmitter.h; path = ../Classes/ParticleEmitter.h; sourceTree = "<group>"; };
 		A00E3DBC1900987B00F01AFF /* ParticleParameter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleParameter.cpp; path = ../Classes/ParticleParameter.cpp; sourceTree = "<group>"; };
 		A00E3DBD1900987B00F01AFF /* ParticleParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleParameter.h; path = ../Classes/ParticleParameter.h; sourceTree = "<group>"; };
-		A0ECBFAC1907313000489C7B /* GLESDebugDraw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GLESDebugDraw.cpp; path = ../Classes/GLESDebugDraw.cpp; sourceTree = "<group>"; };
-		A0ECBFAD1907313000489C7B /* GLESDebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLESDebugDraw.h; path = ../Classes/GLESDebugDraw.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -467,7 +488,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50D7205218F8A637000335B8 /* libcocos2dx iOS.a in Frameworks */,
+				50D7205218F8A637000335B8 /* libcocos2d iOS.a in Frameworks */,
 				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
@@ -485,7 +506,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50D7204F18F8A62C000335B8 /* libcocos2dx Mac.a in Frameworks */,
+				50D7204F18F8A62C000335B8 /* libcocos2d Mac.a in Frameworks */,
 				503AE11217EB99EE00D1A890 /* libcurl.dylib in Frameworks */,
 				5087E76717EB910900C73F5D /* libz.dylib in Frameworks */,
 				503AE11B17EB9C5A00D1A890 /* IOKit.framework in Frameworks */,
@@ -521,21 +542,13 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A00E3D2419008BCB00F01AFF /* Tests */,
+				768BB5CB1A43FBEE00BE1DDC /* BallSprite.cpp */,
+				768BB5CC1A43FBEE00BE1DDC /* BallSprite.h */,
+				768BB5BF1A43EE9100BE1DDC /* GameScene_Box2D.cpp */,
+				768BB5C01A43EE9100BE1DDC /* GameScene_Box2D.h */,
 				A00E3D1919008BCB00F01AFF /* AppDelegate.cpp */,
 				A00E3D1A19008BCB00F01AFF /* AppDelegate.h */,
-				A00E3D1B19008BCB00F01AFF /* Box2dView.cpp */,
-				A00E3D1C19008BCB00F01AFF /* Box2dView.h */,
-				A0ECBFAC1907313000489C7B /* GLESDebugDraw.cpp */,
-				A0ECBFAD1907313000489C7B /* GLESDebugDraw.h */,
-				A00E3DBB1900987B00F01AFF /* ParticleEmitter.h */,
-				A00E3DBC1900987B00F01AFF /* ParticleParameter.cpp */,
-				A00E3DBD1900987B00F01AFF /* ParticleParameter.h */,
-				A00E3D2119008BCB00F01AFF /* Test.cpp */,
-				A00E3D2219008BCB00F01AFF /* Test.h */,
-				A00E3D2319008BCB00F01AFF /* TestEntries.cpp */,
-				A00E3D6319008CE000F01AFF /* VisibleRect.cpp */,
-				A00E3D6419008CE000F01AFF /* VisibleRect.h */,
+				768BB5BE1A43EE6600BE1DDC /* Sample */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -803,15 +816,43 @@
 		50D7202118F8A5E7000335B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50D7203018F8A5E8000335B8 /* libcocos2dx Mac.a */,
-				50D7203A18F8A5E8000335B8 /* libcocos2dx iOS.a */,
+				50D7203018F8A5E8000335B8 /* libcocos2d Mac.a */,
+				50D7203A18F8A5E8000335B8 /* libcocos2d iOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		768BB5BE1A43EE6600BE1DDC /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				768BB5C81A43FB3C00BE1DDC /* GLESDebugDraw.cpp */,
+				768BB5C91A43FB3C00BE1DDC /* GLESDebugDraw.h */,
+				A00E3D2419008BCB00F01AFF /* Tests */,
+				A00E3D1B19008BCB00F01AFF /* Box2dView.cpp */,
+				A00E3D1C19008BCB00F01AFF /* Box2dView.h */,
+				A00E3DBB1900987B00F01AFF /* ParticleEmitter.h */,
+				A00E3DBC1900987B00F01AFF /* ParticleParameter.cpp */,
+				A00E3DBD1900987B00F01AFF /* ParticleParameter.h */,
+				A00E3D2119008BCB00F01AFF /* Test.cpp */,
+				A00E3D2219008BCB00F01AFF /* Test.h */,
+				A00E3D2319008BCB00F01AFF /* TestEntries.cpp */,
+				A00E3D6319008CE000F01AFF /* VisibleRect.cpp */,
+				A00E3D6419008CE000F01AFF /* VisibleRect.h */,
+			);
+			name = Sample;
 			sourceTree = "<group>";
 		};
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				768BB5CE1A44013F00BE1DDC /* ball.png */,
+				768BB5CF1A44013F00BE1DDC /* blue_ball.png */,
+				768BB5D01A44013F00BE1DDC /* hl_ball.png */,
+				768BB5D11A44013F00BE1DDC /* hl_blue_ball.png */,
+				768BB5D21A44013F00BE1DDC /* hl_pur_ball.png */,
+				768BB5D31A44013F00BE1DDC /* hl_yellow_ball.png */,
+				768BB5D41A44013F00BE1DDC /* pur_ball.png */,
+				768BB5D51A44013F00BE1DDC /* yellow_ball.png */,
 				A00E3D6E1900969100F01AFF /* Images */,
 				A00E3D6B190091F600F01AFF /* fonts */,
 				1AFAF8B916D35E4900DB1158 /* CloseNormal.png */,
@@ -994,17 +1035,17 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		50D7203018F8A5E8000335B8 /* libcocos2dx Mac.a */ = {
+		50D7203018F8A5E8000335B8 /* libcocos2d Mac.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libcocos2dx Mac.a";
+			path = "libcocos2d Mac.a";
 			remoteRef = 50D7202F18F8A5E8000335B8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		50D7203A18F8A5E8000335B8 /* libcocos2dx iOS.a */ = {
+		50D7203A18F8A5E8000335B8 /* libcocos2d iOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libcocos2dx iOS.a";
+			path = "libcocos2d iOS.a";
 			remoteRef = 50D7203918F8A5E8000335B8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1017,22 +1058,30 @@
 			files = (
 				A00E3D6F1900969100F01AFF /* Images in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
+				768BB5D61A44013F00BE1DDC /* ball.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				768BB5D71A44013F00BE1DDC /* blue_ball.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				A00E3D6C190091F600F01AFF /* fonts in Resources */,
+				768BB5DA1A44013F00BE1DDC /* hl_pur_ball.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
+				768BB5DB1A44013F00BE1DDC /* hl_yellow_ball.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
+				768BB5DD1A44013F00BE1DDC /* yellow_ball.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
+				768BB5D91A44013F00BE1DDC /* hl_blue_ball.png in Resources */,
+				768BB5D81A44013F00BE1DDC /* hl_ball.png in Resources */,
+				768BB5DC1A44013F00BE1DDC /* pur_ball.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
@@ -1065,7 +1114,6 @@
 				500DC82F190ECFC4007B91BF /* b2StackAllocator.cpp in Sources */,
 				A00E3D5F19008BCB00F01AFF /* Test.cpp in Sources */,
 				500DC78D190ECFC4007B91BF /* b2ChainAndCircleContact.cpp in Sources */,
-				A0ECBFAE1907313000489C7B /* GLESDebugDraw.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				500DC79F190ECFC4007B91BF /* b2DistanceJoint.cpp in Sources */,
@@ -1078,6 +1126,7 @@
 				A00E3DBE1900987B00F01AFF /* ParticleParameter.cpp in Sources */,
 				500DC7B5190ECFC4007B91BF /* b2WheelJoint.cpp in Sources */,
 				500DC7A5190ECFC4007B91BF /* b2Joint.cpp in Sources */,
+				768BB5CA1A43FB3C00BE1DDC /* GLESDebugDraw.cpp in Sources */,
 				500DC7AD190ECFC4007B91BF /* b2PulleyJoint.cpp in Sources */,
 				500DC847190ECFC4007B91BF /* b2ChainShape.cpp in Sources */,
 				500DC84D190ECFC4007B91BF /* b2PolygonShape.cpp in Sources */,
@@ -1086,6 +1135,7 @@
 				500DC7A9190ECFC4007B91BF /* b2MouseJoint.cpp in Sources */,
 				500DC77F190ECFC4007B91BF /* b2VoronoiDiagram.cpp in Sources */,
 				500DC843190ECFC4007B91BF /* b2DynamicTree.cpp in Sources */,
+				768BB5CD1A43FBEE00BE1DDC /* BallSprite.cpp in Sources */,
 				500DC77D190ECFC4007B91BF /* b2ParticleSystem.cpp in Sources */,
 				500DC83B190ECFC4007B91BF /* b2CollideEdge.cpp in Sources */,
 				500DC83F190ECFC4007B91BF /* b2Collision.cpp in Sources */,
@@ -1101,6 +1151,7 @@
 				500DC7AB190ECFC4007B91BF /* b2PrismaticJoint.cpp in Sources */,
 				500DC78F190ECFC4007B91BF /* b2ChainAndPolygonContact.cpp in Sources */,
 				500DC777190ECFC4007B91BF /* b2Rope.cpp in Sources */,
+				768BB5C31A43EE9100BE1DDC /* GameScene_Box2D.cpp in Sources */,
 				500DC83D190ECFC4007B91BF /* b2CollidePolygon.cpp in Sources */,
 				500DC78B190ECFC4007B91BF /* b2WorldCallbacks.cpp in Sources */,
 				500DC831190ECFC4007B91BF /* b2Stat.cpp in Sources */,
@@ -1179,7 +1230,6 @@
 				500DC834190ECFC4007B91BF /* b2Timer.cpp in Sources */,
 				500DC786190ECFC4007B91BF /* b2Fixture.cpp in Sources */,
 				A00E3D6219008BCB00F01AFF /* TestEntries.cpp in Sources */,
-				A0ECBFAF1907313000489C7B /* GLESDebugDraw.cpp in Sources */,
 				500DC782190ECFC4007B91BF /* b2Body.cpp in Sources */,
 				500DC78A190ECFC4007B91BF /* b2World.cpp in Sources */,
 				500DC82C190ECFC4007B91BF /* b2Math.cpp in Sources */,
@@ -1237,7 +1287,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "LiquidFun-Testbed iOS";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "789512d1-b772-4b7e-8258-a92f063ea5c1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
@@ -1270,7 +1320,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "LiquidFun-Testbed iOS";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "789512d1-b772-4b7e-8258-a92f063ea5c1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";

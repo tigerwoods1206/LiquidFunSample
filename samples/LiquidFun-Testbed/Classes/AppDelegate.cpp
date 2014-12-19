@@ -1,6 +1,6 @@
 #include "AppDelegate.h"
 //#include "HelloWorldScene.h"
-#include "Box2dView.h"
+#include "GameScene_Box2D.h"
 
 USING_NS_CC;
 
@@ -29,7 +29,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // create a scene. it's an autorelease object
 //    auto scene = HelloWorld::createScene();
-    auto scene = Box2DView::createScene();
+    auto scene = GameScene_Box2D::createGameScene_Box2D();
 
     // run
     director->runWithScene(scene);
